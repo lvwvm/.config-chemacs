@@ -1,3 +1,4 @@
-(("doom" . ((server-name . "doom")
-            (user-emacs-directory . "~/.local/share/doom")
-            (env . (("DOOMDIR" . "~/.config/doom"))))))
+(("default" . ((user-emacs-directory . "~/.emacs.d" )
+               (server-name . "default")))
+ ("doom" . ((user-emacs-directory . "~/.local/share/doom")
+	    (server-name . "doom"))))
