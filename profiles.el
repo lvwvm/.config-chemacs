@@ -1,0 +1,8 @@
+(("default" . ((user-emacs-directory . "~/.local/share/emacsen/emacs.d" )
+               (server-name . "vanilla")))
+ ("doom" . ((user-emacs-directory . "~/.local/share/emacsen/doom")
+            (custom-file . "~/.config/doom/custom.el")
+            (server-name . "doom")
+            (env . (("DOOMDIR" . "~/.config/doom")
+                    ("DOOMLOCALDIR" . "~/.cache/doom")))
+            (straight-p . t))))
